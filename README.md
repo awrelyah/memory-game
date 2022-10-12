@@ -1,5 +1,10 @@
-# The Odin Project Memory Game
+# Memory game with Spongebob characters
 
-Done as part of the TOP curriculum.
+Done as part of the TOP curriculum for praciticing React and learning hooks.
 
-View it [here](https://awrelyah.github.io/memory-game/);
+# Demo
+
+View it [here](https://awrelyah.github.io/memory-game/).
+
+![picture of game](./src/img/screenshot.png)
+
