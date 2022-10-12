@@ -1,11 +1,17 @@
+.App{
+  background-image: linear-gradient(rgb(247, 179, 179), rgb(189, 158, 225));
+  height:100vh;
+  color:white;
+}
 .cards{
   display: grid;
-  grid-template-columns: repeat(4, minmax(150px, 1fr));
-  grid-template-rows: repeat(2, 1fr);
-  gap:10px;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  grid-template-rows: repeat(2, minmax(auto, 1fr));
+  gap:15px;
   align-items: center;
-  justify-items: center;
-  margin: 1px 50px 1px 50px;
+  justify-items:center;
+  padding: 1px 25px 1px 25px;
+  padding:20px;
 }
 
 .card img {
@@ -13,7 +19,7 @@
 }
 
 .card{
-  background-color: rgba(232, 211, 211, 0.4);
+  background-color: rgba(232, 211, 211, 0.6);
   overflow: hidden;
   width:175px;
   height:200px;
@@ -23,7 +29,6 @@
   justify-content:space-evenly;
   text-align: center;
   border-radius: 20px;
-  border: 2px solid rgb(0, 0, 0);
 }
 
 .header{
