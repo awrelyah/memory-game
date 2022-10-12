@@ -3,6 +3,7 @@ import Images from './components/Images';
 import Header from './components/Header';
 import {useState, useEffect} from 'react';
 import {imgData} from './imgs.js';
+import Footer from './components/Footer';
 
 function App() {
   const [images, setImages] = useState(imgData);
@@ -40,8 +41,7 @@ function App() {
     <div className="App">
       <Header score={score}/>
       <Images images={images} handleClick={handleClick}/>
-      <div>
-      </div>
+      <Footer />
     </div>
   );
 }

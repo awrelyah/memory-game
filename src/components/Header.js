@@ -4,9 +4,10 @@ function Header(props) {
   return (
     <div className='header'>
         <div className='title'>MEMORY GAME</div>
+        <div>Click on different characters and test your memory!</div>
         <div className='scores'>
-            <div>Current score - {props.score.current}</div>
-            <div>Max score - {props.score.max}</div>
+            <div>current score - {props.score.current}</div>
+            <div>max score - {props.score.max}</div>
         </div>
     </div>
   )
