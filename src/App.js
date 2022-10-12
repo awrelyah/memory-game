@@ -1,5 +1,6 @@
 import './App.css';
 import Images from './components/Images';
+import Header from './components/Header';
 import {useState} from 'react';
 import {imgData} from './imgs.js';
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Images images={images}/>
       <div>
       </div>
