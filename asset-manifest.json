@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.24c725b6.css",
+    "main.js": "/memory-game/static/js/main.02825729.js",
+    "static/media/mrspuff.png": "/memory-game/static/media/mrspuff.ec86b6b4671cbf82893b.png",
+    "static/media/sandy.png": "/memory-game/static/media/sandy.06f6e51572f77326e5ac.png",
+    "static/media/patrick.png": "/memory-game/static/media/patrick.71dc6fcbc3e2fc8a690f.png",
+    "static/media/squidward.png": "/memory-game/static/media/squidward.d0a4d0753cc4e027fc81.png",
+    "static/media/krabs.png": "/memory-game/static/media/krabs.cf3f4d384cdedbc2fcfa.png",
+    "static/media/spongebob.png": "/memory-game/static/media/spongebob.05bf4a0706c768b6f545.png",
+    "static/media/pearl.png": "/memory-game/static/media/pearl.e5b7fc8040961a205439.png",
+    "static/media/kingneptune.png": "/memory-game/static/media/kingneptune.efc0a7227e5e04b7af9e.png",
+    "static/media/gary.png": "/memory-game/static/media/gary.dad826a02699c295791a.png",
+    "static/media/karen.png": "/memory-game/static/media/karen.d3e488658a24882cec8d.png",
+    "static/media/plankton.png": "/memory-game/static/media/plankton.410990080e2a2c26cd05.png",
+    "index.html": "/memory-game/index.html",
+    "main.24c725b6.css.map": "/memory-game/static/css/main.24c725b6.css.map",
+    "main.02825729.js.map": "/memory-game/static/js/main.02825729.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24c725b6.css",
+    "static/js/main.02825729.js"
+  ]
+}
