@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Londrina+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&family=Orbitron:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?amily=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
 
@@ -64,15 +64,18 @@
 
 .scores{
   margin-top:5px;
-  width:200px;
   border-radius: 20px;
   padding:3px;
   margin-bottom:0;
-  color: rgb(244, 86, 165);
-  text-shadow: 1px 1px 5px  white;
+  color: rgb(253, 253, 253);
+  text-shadow: 1px 1px 5px rgb(222, 61, 155);
+  display: flex;
 }
 
-
+.score{
+  margin-left:20px;
+  width:max-content;
+}
 footer{
   text-align: center;
   font-size: smaller;
