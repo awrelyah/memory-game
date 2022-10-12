@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&family=Orbitron:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?amily=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
 
 .App{
   background-image: linear-gradient(rgb(247, 179, 179), rgb(189, 158, 225));
@@ -34,6 +40,9 @@
   justify-content:space-evenly;
   text-align: center;
   border-radius: 20px;
+  font-family: 'Luckiest Guy';
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
 }
 
 .header{
@@ -45,23 +54,29 @@
 }
 
 .title{
+  padding-top:10px;
+  font-family: 'Luckiest Guy', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px  rgb(255, 0, 128);
 }
 
 .scores{
-  color:white;
-  width:500px;
+  margin-top:5px;
+  width:200px;
   border-radius: 20px;
-  padding:10px;
-  color:rgb(82, 79, 96);
+  padding:3px;
   margin-bottom:0;
+  color: rgb(244, 86, 165);
+  text-shadow: 1px 1px 5px  white;
 }
+
 
 footer{
   text-align: center;
   font-size: smaller;
+  padding:10px;
 }
 a{
   color:white;
@@ -69,6 +84,14 @@ a{
 
 a:hover{
   color:rgb(135, 4, 107);
+}
+
+.card:hover{
+  background-color: rgba(245, 245, 220, 0.8);
+}
+
+.card:active{
+  background-color: beige;
 }
 @media only screen and (max-width:750px){
   .cards{
