@@ -6,4 +6,4 @@ Done as part of the TOP curriculum for praciticing React and learning hooks.
 
 View it [here](https://awrelyah.github.io/memory-game/).
 
-<img src="./src/img/screenshot.png" alt="picture of game" width="200"/>
+![picture of game](./src/img/screenshot.png)
