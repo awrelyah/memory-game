@@ -21,14 +21,14 @@ function App() {
     } else {
       setImages(prev => 
         prev.map(el => el.id == id? {...el, isClicked: true} : {...el}))
-        setScore(prev => ({current: prev.current+1, max: prev.current > prev.max ? prev.current : prev.max }));
+        setScore(prev => ({current: prev.current+1, max: prev.current+1 > prev.max ? prev.current+1 : prev.max }));
     }
   }
 
-  //every time score changes suffle the cards
+  //every time score changes shuffle the cards
   useEffect(() => {
     setImages(prev => {
-      //pick random element and exclude it from the next draw
+      //pick random element and exclude it from the next draw, swap elements
       for (let i = prev.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [prev[i], prev[j]] = [prev[j], prev[i]];
