@@ -101,3 +101,20 @@ a:hover{
 .card:active{
   background-color: beige;
 }
+
+@media only screen and (min-width:1366px ) {
+
+  .App{
+    align-items: center;
+  }
+  .cards{
+    grid-template-columns: repeat(6, minmax(200px,1fr));
+    width: max-content;
+    height: 500px;
+    flex:0;
+  }
+
+  footer{
+    flex:1;
+  }
+}
